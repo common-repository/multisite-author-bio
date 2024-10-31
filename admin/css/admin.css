@@ -1,0 +1,191 @@
+#admin-view {
+	padding: 40px;
+	max-width: 700px;
+	color: #3c434a;
+	/* Rounded sliders */
+}
+
+#admin-view * {
+	box-sizing: border-box;
+}
+
+#admin-view h1 {
+	font-size: 36px;
+	line-height: 40px;
+	margin: 0 0 2rem;
+}
+
+#admin-view .sections {
+	text-align: left;
+	border-radius: 5px;
+	width: 100%;
+	padding: 45px 40px 40px 40px;
+	background-color: #ffffff;
+}
+
+#admin-view .sections .hidden {
+	opacity: 0;
+	height: 0;
+}
+
+#admin-view .sections .main-description {
+	margin-bottom: 1.5rem;
+}
+
+#admin-view .sections .section {
+	margin-bottom: 1.5rem;
+}
+
+#admin-view .sections .section h2 {
+	font-weight: 700;
+	font-size: 16px;
+	margin: 0 0 1rem;
+	border: 1px #ddd solid;
+	background: #fff;
+	box-shadow: 3px 3px 0px 0px rgb(0 0 0 / 3%);
+	padding: 10px 15px;
+}
+
+#admin-view .sections .section .checkbox {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 30px;
+}
+
+#admin-view .sections .section .checkbox .check {
+	width: 42px;
+	border: 1px #ddd solid;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #fff;
+	box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.03);
+}
+
+#admin-view .sections .section .checkbox .check input {
+	margin: 0;
+}
+
+#admin-view .sections .section .checkbox .label {
+	border: 1px #ddd solid;
+	width: calc(100% - 42px);
+	border-left: none;
+	font-weight: 700;
+	font-size: 16px;
+	padding: 10px 15px;
+	background: #fff;
+	box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.03);
+}
+
+#admin-view .sections .section .checkbox .desc {
+	margin-top: 7px;
+}
+
+#admin-view .sections .section .range-inputs {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 2rem;
+}
+
+#admin-view .sections .section .range-inputs div {
+	width: calc(50% - 1rem);
+	display: flex;
+	flex-direction: column;
+}
+
+#admin-view .sections .section .items {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#admin-view .sections .section .items .item {
+	position: relative;
+	padding: 0.5rem 1rem;
+	margin-bottom: 0.5rem;
+	cursor: pointer;
+	background: #eeeeee;
+	color: #3c434a;
+	border: 1px solid transparent;
+}
+
+#admin-view .sections .section .items .item:not(:last-of-type) {
+	margin-right: 0.5rem;
+}
+
+#admin-view .sections .section .items .item.active {
+	background: #3c434a;
+	color: #eeeeee;
+	border: 1px solid transparent;
+}
+
+#admin-view .sections .section .items .item:before {
+	content: "";
+	position: absolute;
+	top: -1px;
+	left: -1px;
+	width: 5px;
+	height: 5px;
+	border-left: 1px solid #3c434a;
+	border-top: 1px solid #3c434a;
+	transition: height 0.2s linear;
+}
+
+#admin-view .sections .section .items .item:after {
+	content: "";
+	position: absolute;
+	bottom: -1px;
+	right: -1px;
+	width: 5px;
+	height: 5px;
+	border-right: 1px solid #3c434a;
+	border-bottom: 1px solid #3c434a;
+	transition: height 0.2s linear;
+}
+
+#admin-view .sections .section .items .item:hover:before, #admin-view .sections .section .items .item:hover:after {
+	width: calc(100% + 1px);
+	height: calc(100% + 1px);
+}
+
+#admin-view .sections .section.more-filters, #admin-view .sections .section.advanced-options {
+	display: flex;
+	align-items: center;
+	margin: 0 0 1.5rem;
+	cursor: pointer;
+	border: 1px #ddd solid;
+	background: #fff;
+	box-shadow: 3px 3px 0px 0px rgb(0 0 0 / 3%);
+	padding: 10px 15px;
+	justify-content: space-between;
+}
+
+#admin-view .sections .section.more-filters div, #admin-view .sections .section.advanced-options div {
+	font-weight: 700;
+	font-size: 16px;
+}
+
+#admin-view .sections .section.more-filters svg, #admin-view .sections .section.advanced-options svg {
+	width: 8px;
+	margin-left: 5px;
+}
+
+#admin-view .sections .section input[type=text], #admin-view .sections .section input[type=date], #admin-view .sections .section select {
+	max-width: unset;
+	width: 100%;
+	padding: 10px;
+	border: 1px #ddd solid;
+	border-radius: 0;
+	box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.03);
+}
+
+#admin-view .sections .more-filter-container, #admin-view .sections .advanced-options-container {
+	padding: 1rem 2rem;
+	transition: opacity .3s ease-in-out, height .3s ease-in-out;
+}
+
+#admin-view .sections .more-filter-container h2, #admin-view .sections .advanced-options-container h2 {
+	border: unset;
+	background: unset;
+	box-shadow: unset;
+	padding: 0;
+}

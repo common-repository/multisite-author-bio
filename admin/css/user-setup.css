@@ -1,0 +1,7 @@
+.mab-form-container select.mab-select-bio-variation {
+	width: 15em!important;
+}
+
+.mab-form-container .mab-bio-variation-text.hidden, .mab-form-container .mab-bio-variation-label.hidden {
+	display: none;
+}

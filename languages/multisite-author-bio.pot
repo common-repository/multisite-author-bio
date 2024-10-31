@@ -1,0 +1,72 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Multisite Author Bio\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-24 03:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.3; wp-6.1.1\n"
+"X-Domain: multisite-author-bio"
+
+#. Description of the plugin
+msgid ""
+"Allows you to add unique user biographical information for each Multisite "
+"instance."
+msgstr ""
+
+#: classes/mab-user-setup.php:126
+msgid "Below is the user bio variation for the site selected above."
+msgstr ""
+
+#: admin/view.php:34
+msgid "Clear translation data on uninstall"
+msgstr ""
+
+#. Author of the plugin
+msgid "CodeAdapted"
+msgstr ""
+
+#: admin/view.php:37
+msgid ""
+"Enabling this option will delete all the user meta data added by the plugin. "
+"It is highly advised to leave this unchecked if you plan to continue using "
+"this plugin."
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://codeadapted.com"
+msgstr ""
+
+#: classes/mab-user-setup.php:127
+msgid "Insert profile bio variation"
+msgstr ""
+
+#. Name of the plugin
+#: admin/view.php:26 classes/mab-plugin.php:170 classes/mab-plugin.php:171
+#: classes/mab-user-setup.php:116 classes/mab-user-setup.php:134
+msgid "Multisite Author Bio"
+msgstr ""
+
+#: classes/mab-user-setup.php:137
+msgid "Multisite is not enabled."
+msgstr ""
+
+#: classes/mab-user-setup.php:121
+msgid "Select Site"
+msgstr ""
+
+#: classes/mab-user-setup.php:117
+msgid "Select the network site you wish to update/view the user bio for."
+msgstr ""
+
+#: classes/mab-plugin.php:120
+msgid "User bio variations set to be cleared on uninstall"
+msgstr ""
